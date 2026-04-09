@@ -1,0 +1,64 @@
+.TH "Programs/prog03.c" 3 "Prog03" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Programs/prog03.c
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include <string\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fB_GNU_SOURCE\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBsearch_file_for\fP (const char *filename, const char *target)"
+.br
+.RI "Searches a file for a target string\&. "
+.ti -1c
+.RI "int \fBmain\fP (int argc, char *argv[])"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define _GNU_SOURCE"
+
+.SH "Function Documentation"
+.PP 
+.SS "int main (int argc, char * argv[])"
+
+.SS "int search_file_for (const char * filename, const char * target)"
+
+.PP
+Searches a file for a target string\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfilename\fP Character array containing the filename 
+.br
+\fItarget\fP Character array of the string to be searched for 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The number of times that the target string was found in the file 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Prog03 from the source code\&.
