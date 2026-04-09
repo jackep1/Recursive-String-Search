@@ -1,0 +1,64 @@
+\doxysection{Programs/prog03.c File Reference}
+\hypertarget{prog03_8c}{}\label{prog03_8c}\index{Programs/prog03.c@{Programs/prog03.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for prog03.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{prog03_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{prog03_8c_a369266c24eacffb87046522897a570d5}{\+\_\+\+GNU\+\_\+\+SOURCE}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{prog03_8c_a47f0ac866da26517d556854c8967669a}{search\+\_\+file\+\_\+for}} (const char \texorpdfstring{$\ast$}{*}filename, const char \texorpdfstring{$\ast$}{*}target)
+\begin{DoxyCompactList}\small\item\em Searches a file for a target string. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{prog03_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{prog03_8c_a369266c24eacffb87046522897a570d5}\label{prog03_8c_a369266c24eacffb87046522897a570d5} 
+\index{prog03.c@{prog03.c}!\_GNU\_SOURCE@{\_GNU\_SOURCE}}
+\index{\_GNU\_SOURCE@{\_GNU\_SOURCE}!prog03.c@{prog03.c}}
+\doxysubsubsection{\texorpdfstring{\_GNU\_SOURCE}{\_GNU\_SOURCE}}
+{\footnotesize\ttfamily \#define \+\_\+\+GNU\+\_\+\+SOURCE}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{prog03_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{prog03_8c_a0ddf1224851353fc92bfbff6f499fa97} 
+\index{prog03.c@{prog03.c}!main@{main}}
+\index{main@{main}!prog03.c@{prog03.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+\Hypertarget{prog03_8c_a47f0ac866da26517d556854c8967669a}\label{prog03_8c_a47f0ac866da26517d556854c8967669a} 
+\index{prog03.c@{prog03.c}!search\_file\_for@{search\_file\_for}}
+\index{search\_file\_for@{search\_file\_for}!prog03.c@{prog03.c}}
+\doxysubsubsection{\texorpdfstring{search\_file\_for()}{search\_file\_for()}}
+{\footnotesize\ttfamily int search\+\_\+file\+\_\+for (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{filename,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{target }\end{DoxyParamCaption})}
+
+
+
+Searches a file for a target string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Character array containing the filename \\
+\hline
+{\em target} & Character array of the string to be searched for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of times that the target string was found in the file 
+\end{DoxyReturn}
