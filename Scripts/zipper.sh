@@ -1,0 +1,1 @@
+zip -r prog03.zip Programs Documentation Scripts Report.pdf -x ./Scripts/whatami.sh ./Scripts/zipper.sh ./Scripts/test.sh
